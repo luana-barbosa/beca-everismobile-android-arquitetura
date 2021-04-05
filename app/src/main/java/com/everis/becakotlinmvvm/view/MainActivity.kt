@@ -1,4 +1,4 @@
-package com.everis.becakotlinmvvm
+package com.everis.becakotlinmvvm.view
 
 import android.os.Bundle
 import android.util.Log
@@ -6,6 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.everis.becakotlinmvvm.viewmodel.HolidayViewModel
 import com.everis.becakotlinmvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

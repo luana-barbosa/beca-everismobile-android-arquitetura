@@ -1,9 +1,9 @@
-package com.everis.becakotlinmvvm
+package com.everis.becakotlinmvvm.retrofit
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class RetrofitClient {
+class ApiService {
     companion object {
 
         fun getRetrofitInstance(path : String) : Retrofit {
